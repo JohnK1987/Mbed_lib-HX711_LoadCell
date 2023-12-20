@@ -29,5 +29,15 @@ int main(void)
     }
 }
 ```
-
+becasue we are working with floats and the printf, then we need a modification in mbed_app.json
+```
+{
+    "target_overrides": {
+      "*": {
+        "target.c_lib": "std",
+        "target.printf_lib": "std"
+      }
+    }
+}
+```
 Jan Kamidra 20.12.2023
