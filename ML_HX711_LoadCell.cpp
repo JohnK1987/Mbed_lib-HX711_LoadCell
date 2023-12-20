@@ -1,5 +1,4 @@
-#include "Mbed_lib-HX711_LoadCell.h"
-#include "mbed.h"
+#include "ML_HX711_LoadCell.h"
  
 #define SCALE_VALUE 259.79 //multiple propre à chaque hardware
 #define HX_DELAY 2 //us
