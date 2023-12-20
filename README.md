@@ -34,7 +34,6 @@ becasue we are working with floats and the printf, then we need a modification i
 {
     "target_overrides": {
       "*": {
-        "target.c_lib": "std",
         "target.printf_lib": "std"
       }
     }
