@@ -6,7 +6,7 @@ Example:
 #include "mbed.h"
 #include "ML_HX711_LoadCell.h"
 
-HX711 scale(PB_8, PB_9); 
+ML_HX711_LoadCell scale(PB_8, PB_9); 
 
 float calibration_factor = -702; // a default value
 int averageSamples = 100;
